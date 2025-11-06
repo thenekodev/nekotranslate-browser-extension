@@ -3,6 +3,7 @@ Build it yourself:
  - $ ./01-build.sh
  - $ ./02-run.sh
  - $ cd src
+ - $ npm install
  - For Chrome: npm run build
  - For Firefox: npm run build:firefox
  - $ exit
