@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "TARGET_BROWSER=chrome webpack --mode production",
-    "build:firefox": "TARGET_BROWSER=firefox webpack --mode production && npm run postbuild",
+    "build": "rm -rf dist && TARGET_BROWSER=chrome webpack --mode production",
+    "build:firefox": "rm -rf dist && TARGET_BROWSER=firefox webpack --mode production && npm run postbuild",
     "postbuild": "cd dist && zip -r dist.zip ./*"
   },
   "devDependencies": {
