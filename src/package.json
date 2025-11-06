@@ -1,0 +1,20 @@
+{
+  "name": "chisatoai-browser-addon",
+  "description": "The browser add-on of Chisato AI.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "TARGET_BROWSER=chrome webpack --mode production",
+    "build:firefox": "TARGET_BROWSER=firefox webpack --mode production && npm run postbuild",
+    "postbuild": "cd dist && zip -r dist.zip ./*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "webextension-polyfill": "^0.12.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
