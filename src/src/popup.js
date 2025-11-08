@@ -1,10 +1,11 @@
 import browser from 'webextension-polyfill';
 import getTokenUtil from './get-token-util';
 import sendReqUtil from './send-req-util';
-import plans from './plans.json';
-import engineMap from './engine_map.json';
-import config from './config.json';
 import locales from './locales/locales';
+import plans from './plans';
+import engineMap from './engine-map';
+import config from './config';
+import infoText from './info.txt';
 const main=async ()=>{
   let userLevel=3;
   const logoSectionElem=document.getElementById('divLogoSection');
@@ -74,16 +75,15 @@ const main=async ()=>{
         return;
       }
       usernameElem.textContent=user.email;
-      planElem.textContent=plans[user.level];
       userLevel=user.level;
     }
     else{
       usernameElem.textContent='Anonymous';
       signOutElem.style.display='none';
       signInElem.style.display='block';
-      planElem.textContent='Free';
       userLevel=0;
     }
+    planElem.textContent=plans[userLevel];
     if(userLevel<engineMap[engine].minLevel){
       engine=config.DEFAULT_ENGINE;
       browser.storage.local.set({engine});
@@ -186,7 +186,7 @@ const main=async ()=>{
     }
   });
   infoIconElem.addEventListener('click',()=>{
-    alert(`NekoTranslate Browser Extension version ${config.VERSION_NUMBER}`);
+    alert(infoText);
   });
   uiLangOptionElems.forEach((x)=>{
     x.addEventListener('click',async (e)=>{

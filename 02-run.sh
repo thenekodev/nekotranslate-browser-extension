@@ -2,7 +2,7 @@
 
 docker run \
     -it \
-    -v $(pwd)/src:/app/src \
+    -v $(pwd):/app \
     --rm \
     chisatoai-browser-addon \
     /bin/bash
