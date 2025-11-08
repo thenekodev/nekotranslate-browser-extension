@@ -1,10 +1,11 @@
 {
   "atLeast": "alespoň",
   "balance": "Zůstatek:",
-  "cppInfo": "★ cpp = kredity na stránku",
+  "cppInfo": "★ cpp = kreditů na stránku",
   "credits": "kredity",
   "currentDomain": "Aktuální doména",
-  "instructionText": "Na webové stránce klikněte pravým tlačítkem na stránku mangy, kterou chcete přeložit",
+  "deeplUnsupportedLanguage": "DeepL momentálně nepodporuje vybraný cílový jazyk.",
+  "instructionText": "Na webu klikněte pravým tlačítkem myši na stránku mangy, kterou chcete přeložit",
   "langCs": "Čeština",
   "langDa": "Dánština",
   "langDe": "Němčina",
@@ -39,5 +40,5 @@
   "signIn": "Přihlásit se",
   "signOut": "Odhlásit se",
   "targetLanguage": "Cílový jazyk",
-  "translationEngine": "Překladač"
+  "translationEngine": "Překladový stroj"
 }

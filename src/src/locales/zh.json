@@ -1,10 +1,11 @@
 {
   "atLeast": "至少",
   "balance": "余额：",
-  "cppInfo": "★ cpp = 每页积分",
-  "credits": "积分",
+  "cppInfo": "★ cpp = 每页点数",
+  "credits": "点数",
   "currentDomain": "当前域名",
-  "instructionText": "在网站上，右键单击要翻译的漫画页面",
+  "deeplUnsupportedLanguage": "DeepL 目前不支持所选目标语言。",
+  "instructionText": "在网站上，右键单击你要翻译的漫画页面",
   "langCs": "捷克语",
   "langDa": "丹麦语",
   "langDe": "德语",
@@ -15,7 +16,7 @@
   "langFr": "法语",
   "langHr": "克罗地亚语",
   "langHu": "匈牙利语",
-  "langId": "印度尼西亚语",
+  "langId": "印尼语",
   "langIs": "冰岛语",
   "langIt": "意大利语",
   "langJa": "日语",
@@ -37,7 +38,7 @@
   "sendToNekoTranslate": "发送到 NekoTranslate",
   "settings": "设置",
   "signIn": "登录",
-  "signOut": "退出",
+  "signOut": "退出登录",
   "targetLanguage": "目标语言",
   "translationEngine": "翻译引擎"
 }

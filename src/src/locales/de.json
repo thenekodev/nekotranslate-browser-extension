@@ -4,7 +4,8 @@
   "cppInfo": "★ cpp = Credits pro Seite",
   "credits": "Credits",
   "currentDomain": "Aktuelle Domain",
-  "instructionText": "Klicke auf der Website mit der rechten Maustaste auf die Manga-Seite, die du übersetzen möchtest",
+  "deeplUnsupportedLanguage": "DeepL unterstützt die ausgewählte Zielsprache derzeit nicht.",
+  "instructionText": "Klicken Sie auf der Website mit der rechten Maustaste auf die Manga-Seite, die Sie übersetzen möchten",
   "langCs": "Tschechisch",
   "langDa": "Dänisch",
   "langDe": "Deutsch",
@@ -32,12 +33,12 @@
   "langSv": "Schwedisch",
   "langZh": "Chinesisch",
   "language": "Sprache",
-  "notRealtime": "nicht Echtzeit",
-  "plan": "Plan:",
+  "notRealtime": "nicht in Echtzeit",
+  "plan": "Tarif:",
   "sendToNekoTranslate": "An NekoTranslate senden",
   "settings": "Einstellungen",
   "signIn": "Anmelden",
   "signOut": "Abmelden",
   "targetLanguage": "Zielsprache",
-  "translationEngine": "Übersetzungs-Engine"
+  "translationEngine": "Übersetzungsdienst"
 }

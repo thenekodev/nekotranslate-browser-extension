@@ -1,7 +1,7 @@
 {
   "name": "chisatoai-browser-addon",
   "description": "The browser add-on of Chisato AI.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "build": "rm -rf dist && TARGET_BROWSER=chrome webpack --mode production",

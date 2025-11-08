@@ -3,8 +3,9 @@
   "balance": "Saldo:",
   "cppInfo": "★ cpp = kredit per halaman",
   "credits": "kredit",
-  "currentDomain": "Domain saat ini",
-  "instructionText": "Di situs web, klik kanan halaman manga yang ingin Anda terjemahkan",
+  "currentDomain": "Domain Saat Ini",
+  "deeplUnsupportedLanguage": "DeepL saat ini tidak mendukung bahasa target yang dipilih.",
+  "instructionText": "Di situs web, klik kanan pada halaman manga yang ingin Anda terjemahkan",
   "langCs": "Ceko",
   "langDa": "Denmark",
   "langDe": "Jerman",
@@ -27,10 +28,10 @@
   "langPl": "Polandia",
   "langPt": "Portugis",
   "langRo": "Rumania",
-  "langSk": "Slowakia",
+  "langSk": "Slovakia",
   "langSl": "Slovenia",
   "langSv": "Swedia",
-  "langZh": "Tiongkok",
+  "langZh": "Tionghoa",
   "language": "Bahasa",
   "notRealtime": "tidak real-time",
   "plan": "Paket:",
@@ -38,6 +39,6 @@
   "settings": "Pengaturan",
   "signIn": "Masuk",
   "signOut": "Keluar",
-  "targetLanguage": "Bahasa tujuan",
-  "translationEngine": "Mesin penerjemah"
+  "targetLanguage": "Bahasa Target",
+  "translationEngine": "Mesin Terjemahan"
 }

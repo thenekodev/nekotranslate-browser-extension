@@ -21,6 +21,7 @@ const main=async ()=>{
   const engineElem=document.getElementById('selectEngine');
   const uiLangElem=document.getElementById('selectUILang');
   const globeIconElem=document.getElementById('svgGlobeIcon');
+  const infoIconElem=document.getElementById('svgInfoIcon');
   const tElems=Array.from(document.getElementsByClassName('t-text'));
   const uiLangOptionElems=Array.from(document.getElementsByClassName('ui-lang-option'));
   let {tgtLang,engine,uiLang}=await browser.storage.local.get(['tgtLang','engine','uiLang']);
@@ -99,7 +100,7 @@ const main=async ()=>{
   };
   const checkTgtLangEngineComp=(tgtLang,engine)=>{
     if(['hr','is'].includes(tgtLang)&&engine==='deepl'){
-      alert('DeepL does not currently support the selected target language.');
+      alert(locales[uiLang].deeplUnsupportedLanguage);
       return false;
     }
     return true;
@@ -183,6 +184,9 @@ const main=async ()=>{
       });
       uiLangElem.style.display='block';
     }
+  });
+  infoIconElem.addEventListener('click',()=>{
+    alert(`NekoTranslate Browser Extension version ${config.VERSION_NUMBER}`);
   });
   uiLangOptionElems.forEach((x)=>{
     x.addEventListener('click',async (e)=>{
