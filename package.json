@@ -2,9 +2,8 @@
   "name": "chisatoai-browser-addon",
   "description": "The browser add-on of Chisato AI.",
   "version": "0.0.2",
-  "private": true,
   "scripts": {
-    "prebuild": "rm -rf dist && echo \"Name: NekoTranslate Browser Extension\nVersion: $npm_package_version\nDate: $(date +'%Y-%m-%d')\nCommit: $(git rev-parse HEAD)\nGithub: https://github.com/thenekodev/nekotranslate-browser-extension/\nFirefox: https://addons.mozilla.org/firefox/addon/nekotranslate/\nChrome: https://chromewebstore.google.com/detail/nekotranslate/bfnogphiljblendaojncdniiflinefkk/\" > src/info.txt",
+    "prebuild": "rm -rf dist && echo \"Name: NekoTranslate Browser Extension\nVersion: $npm_package_version\nDate: $(date +'%Y-%m-%d')\nCommit: $(git rev-parse HEAD)\nOfficial Website: https://nekotranslate.ai/\nGitHub: https://github.com/thenekodev/nekotranslate-browser-extension/\nFirefox: https://addons.mozilla.org/firefox/addon/nekotranslate/\nChrome: https://chromewebstore.google.com/detail/nekotranslate/bfnogphiljblendaojncdniiflinefkk/\" > src/info.txt",
     "build": "TARGET_BROWSER=chrome webpack --mode production",
     "build:firefox": "npm run prebuild && TARGET_BROWSER=firefox webpack --mode production && npm run postbuild",
     "postbuild": "cd dist && zip -r dist.zip ./*"

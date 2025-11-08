@@ -2,7 +2,6 @@
     "CTX_MENU_ITEM_ID":"send2chisatoai",
     "DOMAIN_KEY_PREFIX":"domain_",
     "DEFAULT_ENGINE":"google_cloud",
-    "VERSION_NUMBER":"0.0.2",
     "API_URL":"https://api.nekotranslate.ai",
     "WEB_URL":"https://www.nekotranslate.ai",
     "WS_PING_INTERVAL":10000,

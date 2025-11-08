@@ -1,5 +1,5 @@
-src/src/info.txt
-src/package-lock.json
-src/node_modules
-src/dist
+src/info.txt
+package-lock.json
+node_modules
+dist
 
