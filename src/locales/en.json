@@ -35,6 +35,7 @@
   "language": "Language",
   "notRealtime": "not real-time",
   "plan": "Plan:",
+  "selectAutomatically": "<Select automatically>",
   "sendToNekoTranslate": "Send to NekoTranslate",
   "settings": "Settings",
   "signIn": "Sign In",

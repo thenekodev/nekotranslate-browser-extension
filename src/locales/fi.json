@@ -35,6 +35,7 @@
   "language": "Kieli",
   "notRealtime": "ei reaaliaikainen",
   "plan": "Suunnitelma:",
+  "selectAutomatically": "<Valitse automaattisesti>",
   "sendToNekoTranslate": "Lähetä NekoTranslateen",
   "settings": "Asetukset",
   "signIn": "Kirjaudu sisään",

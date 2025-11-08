@@ -35,6 +35,7 @@
   "language": "Nyelv",
   "notRealtime": "nem valós idejű",
   "plan": "Csomag:",
+  "selectAutomatically": "<Automatikus kiválasztás>",
   "sendToNekoTranslate": "Küldés a NekoTranslate-nek",
   "settings": "Beállítások",
   "signIn": "Bejelentkezés",

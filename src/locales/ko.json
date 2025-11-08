@@ -35,6 +35,7 @@
   "language": "언어",
   "notRealtime": "실시간 아님",
   "plan": "요금제:",
+  "selectAutomatically": "<자동 선택>",
   "sendToNekoTranslate": "NekoTranslate로 보내기",
   "settings": "설정",
   "signIn": "로그인",

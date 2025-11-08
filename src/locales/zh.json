@@ -35,6 +35,7 @@
   "language": "语言",
   "notRealtime": "非实时",
   "plan": "计划：",
+  "selectAutomatically": "<自动选择>",
   "sendToNekoTranslate": "发送到 NekoTranslate",
   "settings": "设置",
   "signIn": "登录",

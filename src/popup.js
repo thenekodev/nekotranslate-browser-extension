@@ -48,7 +48,7 @@ const main=async ()=>{
     for(const [k,v] of Object.entries(engineMap)){
       const optionElem=document.createElement('option');
       optionElem.value=k;
-      optionElem.innerText=`${v.name} (${userLevel<v.minLevel?`${locales[uiLang].atLeast} ${plans[v.minLevel]}`:`${v.cpp} cpp${v.isRealtime?'':', '+locales[uiLang].notRealtime}`})`;
+      optionElem.innerText=`${((typeof v.name==='string')?v.name:v.name[uiLang])} (${userLevel<v.minLevel?`${locales[uiLang].atLeast} ${plans[v.minLevel]}`:`${v.cpp} cpp${v.isRealtime?'':', '+locales[uiLang].notRealtime}`})`;
       engineElem.appendChild(optionElem);
     }
     engineElem.value=engine;
