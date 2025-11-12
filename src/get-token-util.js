@@ -1,5 +1,5 @@
 import browser from 'webextension-polyfill';
-import config from './config.json';
+import config from './config';
 const getTokenUtil=async (isStrict,origTabId)=>{
   const {token}=await browser.storage.local.get(['token']);
   if(token){

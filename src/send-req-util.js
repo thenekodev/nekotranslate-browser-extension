@@ -1,5 +1,5 @@
 import getTokenUtil from './get-token-util';
-import config from './config.json';
+import config from './config';
 const sendReqUtil=async(endpoint,body)=>{
   const headers={};
   if(body&&body.constructor.name==='Object'){

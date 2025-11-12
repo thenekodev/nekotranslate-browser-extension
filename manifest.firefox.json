@@ -7,8 +7,7 @@
     "activeTab",
     "contextMenus",
     "storage",
-    "*://www.nekotranslate.ai/*",
-    "*://api.nekotranslate.ai/*",
+    "*://nekotranslate.ai/*",
     "<all_urls>"
   ],
   "background": {

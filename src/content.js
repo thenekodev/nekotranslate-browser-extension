@@ -1,6 +1,6 @@
 import browser from 'webextension-polyfill';
 import getAncestorsUtil from './get-ancestors-util';
-import config from './config.json';
+import config from './config';
 const main=async ()=>{
   const currentDomain=new URL(window.location.href).hostname;
   const domainKey=config.DOMAIN_KEY_PREFIX+currentDomain;

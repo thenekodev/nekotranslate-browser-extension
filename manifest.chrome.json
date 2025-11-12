@@ -10,8 +10,7 @@
     "storage"
   ],
   "host_permissions": [
-    "*://www.nekotranslate.ai/*",
-    "*://api.nekotranslate.ai/*"
+    "*://nekotranslate.ai/*"
   ],
   "background": {
     "service_worker": "background.js"

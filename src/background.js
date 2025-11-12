@@ -2,7 +2,7 @@ import browser from 'webextension-polyfill';
 import getTokenUtil from './get-token-util';
 import sendReqUtil from './send-req-util';
 import locales from './locales/locales';
-import config from './config.json';
+import config from './config';
 const rebuildCtxMenu=async ()=>{
   await browser.contextMenus.removeAll();
   const patterns=Object.keys(await browser.storage.local.get(null))
