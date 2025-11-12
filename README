@@ -1,3 +1,5 @@
+WARNING: Chrome store still lists v0.0.1, which is not compatible with the new API. I'll remove this disclaimer when v0.0.2 is approved.
+
 Build it yourself:
  - Have Docker installed on a Linux machine, cd into this repository
  - $ ./01-build.sh
@@ -12,4 +14,8 @@ FAQ
 
 Q: What's "Chisato AI"?
 A: It's basically the internal codename of NekoTranslate.
+
+Links:
+ - Firefox: https://addons.mozilla.org/firefox/addon/nekotranslate/
+ - Chrome: https://chromewebstore.google.com/detail/nekotranslate/bfnogphiljblendaojncdniiflinefkk/
 
