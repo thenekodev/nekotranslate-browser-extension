@@ -2,6 +2,12 @@
 
 Translate any manga or comic in place and in real time.
 
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.jpeg)
+
+![Screenshot 2](screenshots/screenshot2.jpeg)
+
 ## Build it yourself
 
 - Have Docker installed on a Linux machine, cd into this repository
